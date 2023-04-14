@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'gissiri font'; 
+  src: url('./font/Gisshiri.ttf') format('truetype');
+  // https://keisukechiba.booth.pm/items/4652044
+}
+
+.stage {
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  .makura {
+    color: transparent;
+    line-height: 99%;
+    font-family: 'gissiri font', cursive;
+    font-size: var(--font-size);
+  }
+}
